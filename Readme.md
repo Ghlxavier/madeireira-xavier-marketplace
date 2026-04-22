@@ -39,34 +39,5 @@
 
 </body>
 </html>
-
-
-📍 Rotas Públicas – /src/pages/publico
-/HomePublico
-/login LoginPage
-/cadastro CadastroPage
-/lembrar-senha LembrarSenhaPage
-/listar ListarNoticiasPage
-/noticia/:id NoticiaIndividualPage
-/busca PesquisaPublicaPage
-/busca/uf/:sigla Pesquisa por UF
-/busca/cidade/:id Pesquisa por Cidade
-
-📍 Rotas do Leitor – /src/pages/leitor
-/leitor
-HomeLeitor
-
-📍Rotas do Autor – /src/pages/autor
-/autor
-HomeAutor
-
-📍 Rotas do Editor – /src/pages/editor
-/editor
-HomeEditor
-
-📍 Rotas do Super Administrador – /src/pages/superadmin 
-/superadmin
-HomeSuperAdmin
-
 📍 Rota Coringa (404)
 RotaPágina*NotFoundPage
