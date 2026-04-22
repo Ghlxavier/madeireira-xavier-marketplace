@@ -1,1 +1,1 @@
-{"version":3,"file":"initDB.js","sourceRoot":"","sources":["../src/initDB.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AAEjC,MAAM,UAAU,MAAM;IACpB,MAAM,CAAC,IAAI,CAAC;;;;;;;;;;;;;;;;;;;;;;GAsBX,CAAC,CAAC;AACL,CAAC"}
+{"version":3,"file":"initDB.js","sourceRoot":"","sources":["../src/initDB.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,SAAS,CAAC;AAEjC,MAAM,UAAU,MAAM;IACpB,MAAM,CAAC,IAAI,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAmCX,CAAC,CAAC;AACL,CAAC"}
