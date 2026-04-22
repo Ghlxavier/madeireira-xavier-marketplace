@@ -42,19 +42,31 @@
 
 
 📍 Rotas Públicas – /src/pages/publico
-RotaPágina/HomePublico/loginLoginPage/cadastroCadastroPage/lembrar-senhaLembrarSenhaPage/listarListarNoticiasPage/noticia/:idNoticiaIndividualPage/buscaPesquisaPublicaPage/busca/uf/:siglaPesquisa por UF/busca/cidade/:idPesquisa por Cidade
+/HomePublico
+/login LoginPage
+/cadastro CadastroPage
+/lembrar-senha LembrarSenhaPage
+/listar ListarNoticiasPage
+/noticia/:id NoticiaIndividualPage
+/busca PesquisaPublicaPage
+/busca/uf/:sigla Pesquisa por UF
+/busca/cidade/:id Pesquisa por Cidade
 
 📍 Rotas do Leitor – /src/pages/leitor
-RotaPágina/leitorHomeLeitor
+/leitor
+HomeLeitor
 
 📍Rotas do Autor – /src/pages/autor
-RotaPágina/autorHomeAutor
+/autor
+HomeAutor
 
 📍 Rotas do Editor – /src/pages/editor
-RotaPágina/editorHomeEditor
+/editor
+HomeEditor
 
 📍 Rotas do Super Administrador – /src/pages/superadmin 
-RotaPágina/superadminHomeSuperAdmin
+/superadmin
+HomeSuperAdmin
 
 📍 Rota Coringa (404)
 RotaPágina*NotFoundPage
