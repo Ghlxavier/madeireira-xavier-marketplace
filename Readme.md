@@ -43,112 +43,14 @@
 
 📍 Rotas Públicas – /src/pages/publico
 
+RotaPágina/HomePublico/loginLoginPage/cadastroCadastroPage/lembrar-senhaLembrarSenhaPage/listarListarNoticiasPage/noticia/:idNoticiaIndividualPage/buscaPesquisaPublicaPage/busca/uf/:siglaPesquisa por UF/busca/cidade/:idPesquisa por Cidade📍 Rotas do Leitor – /src/pages/leitor /n
 
+RotaPágina/leitorHomeLeitor📍 Rotas do Autor – /src/pages/autor /n
 
+RotaPágina/autorHomeAutor📍 Rotas do Editor – /src/pages/editor /n
 
+RotaPágina/editorHomeEditor📍 Rotas do Super Administrador – /src/pages/superadmin /n
 
+RotaPágina/superadminHomeSuperAdmin📍 Rota Coringa (404) /n
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-RotaPágina/HomePublico/loginLoginPage/cadastroCadastroPage/lembrar-senhaLembrarSenhaPage/listarListarNoticiasPage/noticia/:idNoticiaIndividualPage/buscaPesquisaPublicaPage/busca/uf/:siglaPesquisa por UF/busca/cidade/:idPesquisa por Cidade📍 Rotas do Leitor – /src/pages/leitor
-
-
-
-
-
-
-
-
-
-
-
-
-RotaPágina/leitorHomeLeitor📍 Rotas do Autor – /src/pages/autor
-
-
-
-
-
-
-
-
-
-
-
-
-RotaPágina/autorHomeAutor📍 Rotas do Editor – /src/pages/editor
-
-
-
-
-
-
-
-
-
-
-
-
-RotaPágina/editorHomeEditor📍 Rotas do Super Administrador – /src/pages/superadmin
-
-
-
-
-
-
-
-
-
-
-
-
-RotaPágina/superadminHomeSuperAdmin📍 Rota Coringa (404)
-
-
-
-
-
-
-
-
-
-
-
-
-RotaPágina*NotFoundPage
+RotaPágina*NotFoundPage /n
