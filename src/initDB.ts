@@ -23,5 +23,18 @@ export function initDb() {
       data_criacao TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
       FOREIGN KEY (cidade_id) REFERENCES cidade(id)
     );
+
+        CREATE TABLE IF NOT EXISTS tag (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      nome TEXT NOT NULL
+    );
+
+    CREATE TABLE IF NOT EXISTS noticia_tag (
+      noticia_id INTEGER NOT NULL,
+      tag_id INTEGER NOT NULL,
+      PRIMARY KEY (noticia_id, tag_id),
+      FOREIGN KEY (noticia_id) REFERENCES noticia(id),
+      FOREIGN KEY (tag_id) REFERENCES tag(id)
+    );
   `);
 }

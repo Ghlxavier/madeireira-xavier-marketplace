@@ -1,4 +1,4 @@
-import { sqliteTable, integer, text } from "drizzle-orm/sqlite-core";
+import { sqliteTable, integer, text, primaryKey } from "drizzle-orm/sqlite-core";
 import { sql } from "drizzle-orm"
 
 export const uf = sqliteTable("uf", {
@@ -20,6 +20,18 @@ export const noticia = sqliteTable("noticia", {
   cidadeId: integer("cidade_id").notNull(),
   dataCriacao: text("data_criacao").notNull().default(sql`CURRENT_TIMESTAMP`),
 });
+
+export const tag = sqliteTable('tag', {
+  id: integer('id').primaryKey(),
+  nome: text('nome'),
+});
+
+export const noticiaTag = sqliteTable("noticia_tag", {
+  noticiaId: integer("noticia_id").notNull().references(() => noticia.id),
+  tagId: integer("tag_id").notNull().references(() => tag.id),
+}, (table) => ({
+  pk: primaryKey({ columns: [table.noticiaId, table.tagId] }),
+}));
 
 
 //Exemplo de como converter ao exibir
