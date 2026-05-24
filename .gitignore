@@ -44,7 +44,3 @@ desktop.ini
 *.ntvs*
 *.njsproj
 *.sln
-
-# ── Claude Code (config local apenas) ─────
-.claude/settings.local.json
-.claude/launch.json
