@@ -1,0 +1,46 @@
+{
+  // Configuração do TypeScript para CLI Node.js com ESM
+  "compilerOptions": {
+    // Versão do JavaScript gerado
+    "target": "ES2020",
+
+    // Sistema de módulos compatível com Node moderno
+    "module": "NodeNext",
+
+    // Resolve imports como o Node resolve
+    "moduleResolution": "NodeNext",
+
+    // Pasta de entrada do código-fonte
+    "rootDir": "./src",
+
+    // Pasta de saída do build
+    "outDir": "./dist",
+
+    // Tipos do Node.js
+    "types": ["node"],
+
+    // Boas práticas de tipagem
+    "strict": true,
+
+    // Permite interoperabilidade com CommonJS
+    "esModuleInterop": true,
+
+    // Mantém o comportamento de módulos consistente
+    "verbatimModuleSyntax": true,
+
+    // Ajuda a detectar erros de módulos cedo
+    "isolatedModules": true,
+
+    // Evita ruído com bibliotecas externas
+    "skipLibCheck": true,
+
+    // Gera mapas para depuração
+    "sourceMap": true
+  },
+
+  // Inclui apenas o código da aplicação
+  "include": ["src"],
+
+  // Exclui dependências e build
+  "exclude": ["node_modules", "dist"]
+}
